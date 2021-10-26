@@ -1,0 +1,132 @@
+.home {
+	background-image:url('bghome.gif');
+	background-size:100%;
+	background-repeat: repeat-y;
+	background-attachment: fixed;
+	height:100%;
+	width:100%;
+	z-index:0;
+}
+
+.page {
+	background-image:url('bgpages.jpg');
+	background-size:100%;
+	background-repeat: repeat-y;
+	background-attachment: fixed;
+	height:100%;
+	width:100%;
+	z-index:0;
+	
+
+}
+
+.opt {
+	text-decoration: none;
+	color:white;
+	margin:20px; 
+	font-size:24px;
+	display:inline;
+	text-align: right;
+}
+
+
+.options:hover, .opt:hover {
+	color:black;
+	background-color:white;
+
+}
+
+.cabecalho {
+	position:absolute;
+	margin-left:35%; 
+    	margin-right:15%;
+	margin-top:2%;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 11%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.logo {
+	position:absolute;
+}
+
+.slogan {
+	color:white;
+	font-size:70px;
+	margin:90px;
+	font-family:Luminari, fantasy, monospace;
+	font-weigth:bold;
+}
+
+.message {
+	margin-top:230%;
+	margin-left:150%;
+	
+}
+
+
+input[type=text], select, textarea {
+  	width: 100%;
+  	padding: 12px;
+  	border: 1px solid #ccc;
+  	border-radius: 4px;
+  	box-sizing: border-box;
+  	margin-top: 6px;
+  	margin-bottom: 16px;
+  	resize: vertical;
+}
+
+input[type=submit] {
+  	background-color: #04AA6D;
+  	color: white;
+  	padding: 12px 20px;
+  	border: none;
+  	border-radius: 4px;
+  	cursor: pointer;
+}
+
+input[type=submit]:hover {
+  	background-color: #45a049;
+}
+
+
+.contact {
+	margin-left: 35%;
+	margin-right: 15%;
+  	margin-top:12%;
+  	position: absolute;
+
+}
+
+label {
+	color:white;
+	font-weight:bold;
+
+}
+
+.txtcontato {
+	color:white;
+	font-size:45px;
+	font-family:Luminari, fantasy, monospace;
+	margin-right: 55%;
+	text-align:left;
+	
+
+}
+
+
